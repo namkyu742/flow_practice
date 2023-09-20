@@ -1,4 +1,4 @@
-package com.ngjo.flow_practice
+package com.ngjo.flow_practice.ui_layer
 
 import android.os.Bundle
 import android.view.LayoutInflater

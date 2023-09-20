@@ -1,4 +1,4 @@
-package com.ngjo.flow_practice
+package com.ngjo.flow_practice.data_layer
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow

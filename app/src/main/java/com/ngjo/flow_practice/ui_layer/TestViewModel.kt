@@ -1,8 +1,9 @@
-package com.ngjo.flow_practice
+package com.ngjo.flow_practice.ui_layer
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.ngjo.flow_practice.data_layer.TestDataSource
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
