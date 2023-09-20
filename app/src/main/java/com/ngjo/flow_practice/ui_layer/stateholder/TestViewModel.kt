@@ -3,6 +3,7 @@ package com.ngjo.flow_practice.ui_layer.stateholder
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.ngjo.flow_practice.data_layer.datasource.TestDataSource
 import com.ngjo.flow_practice.data_layer.datasource.TestDataSourceImpl
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -14,7 +15,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class TestViewModel @Inject constructor(
-    private val testDataSource: TestDataSourceImpl
+//    private val testDataSource: TestDataSourceImpl
+    private val testDataSource: TestDataSource
 ) : ViewModel() {
 
 //    private val testDataSource = TestDataSource()
