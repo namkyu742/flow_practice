@@ -2,8 +2,10 @@ package com.ngjo.flow_practice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.ngjo.flow_practice.ui_layer.TestFragment
+import com.ngjo.flow_practice.ui_layer.uielement.TestFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

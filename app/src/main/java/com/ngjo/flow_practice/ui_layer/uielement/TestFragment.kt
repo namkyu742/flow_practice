@@ -1,4 +1,4 @@
-package com.ngjo.flow_practice.ui_layer
+package com.ngjo.flow_practice.ui_layer.uielement
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,13 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import com.ngjo.flow_practice.databinding.FragmentTestBinding
+import com.ngjo.flow_practice.ui_layer.stateholder.TestViewModel
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class TestFragment : Fragment() {
+@AndroidEntryPoint
+class TestFragment @Inject constructor() : Fragment() {
     private lateinit var binding: FragmentTestBinding
 
     private val viewModel: TestViewModel by viewModels()
